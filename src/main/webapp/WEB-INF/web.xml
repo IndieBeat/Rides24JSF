@@ -22,6 +22,14 @@
 		<param-name>javax.faces.DEFAULT_SUFFIX</param-name>
 		<param-value>.xhtml</param-value>
 	</context-param>
+	<context-param>
+		<param-name>jakarta.faces.FACELETS_SKIP_COMMENTS</param-name>
+		<param-value>true</param-value>
+	</context-param>
+	<context-param>
+		<param-name>primefaces.UPLOADER</param-name>
+		<param-value>native</param-value>
+	</context-param>
 	<!-- Configuración de bienvenida -->
 	<welcome-file-list>
 		<welcome-file>CreateRide.xhtml</welcome-file>

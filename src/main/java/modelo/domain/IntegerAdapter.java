@@ -1,4 +1,4 @@
-package domain;
+package modelo.domain;
 
 import javax.xml.bind.annotation.adapters.XmlAdapter;
 
